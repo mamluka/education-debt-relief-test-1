@@ -29,7 +29,7 @@
             {% assign posttime = page.date | date: "%Y%m%d" %}
             {% if page.link %}
             <h1 class="post-title text-center hyper lighter entry-title" itemprop="headline"><a href="{{ page.link }}" data-toggle="tooltip" title="Go to {{ page.link }}">{{ page.title }} <span class="link-arrow">&rarr;</span></a></h1>
-            {% else %}
+            {% elsif page.title %}
             <h1 class="post-title text-center hyper lighter entry-title" itemprop="headline">{{ page.title }} <!-- <i class="fa-chevron-down fa"></i> --></h1>
             {% endif %}
 

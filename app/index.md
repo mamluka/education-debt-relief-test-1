@@ -1,7 +1,6 @@
 ---
 layout: default
 type: status
-title: <strong>CALL NOW</strong><br>855-730-2071
 html_title: Student Loan Forgiveness call now qualified professionals waiting to help.
 image:
   feature: bg
